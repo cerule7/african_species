@@ -1,4 +1,11 @@
-## Process
+## Extracting African Plant Species' Traits Project
+
+Data sources: 
+- [World Flora Online](https://www.worldfloraonline.org/)
+- Natural History Museum
+- [TRY](https://www.try-db.org/TryWeb/dp.php)
+
+### Process
 
 1. Scraping (scrape_wfo.ipynb)
  - Scrapes all WFO descriptions and citations for every plant in the input file by IPNI id 
