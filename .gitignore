@@ -1,2 +1,6 @@
 .idea/
-.quinex-env/
+.venv/
+.vscode/
+quinex-env/
+1.25
+settings.json
