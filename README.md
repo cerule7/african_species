@@ -11,25 +11,17 @@ Data sources:
  - Scrapes all WFO descriptions and citations for every plant in the input file by IPNI id 
  - Builds citation lookup dictionary
 2. Initial analysis (initial-analysis.ipynb)
- - Extracts these descriptions only
- -- Diagnostic Description
- -- General Information
- -- Habit
- -- Morphology
- ** Geographic distribution & ecology could be a good follow up
+ - Extracts these descriptions only: Diagnostic Description, General Information, Habit, Morphology
+   - Geographic distribution & ecology could be a good follow up
  - Analyses initial data available by class/order/family
 3. Cleansing (cleansing.ipynb)
  - Fixes encoding errors 
- - Uses lingua-py to detect the language of each description 
- -- English
- -- French
- -- Portuguese
- -- German
-4. Trait extraction
+ - Uses lingua-py to detect the language of each description
+4. Trait extraction (extraction.py)
  - Run Quinex LLM to extract trait data for each plant
 5. Enrichment & Validation
  - Merges with TRY trait data 
- - Track disgreements in data
+ - Track disagreements in data
 6. Analysis
  - Which plants have traits?
  - Which traits are most represented?
